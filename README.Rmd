@@ -1,0 +1,23 @@
+---
+title: "Data product"
+author: "Uayeb Caballero"
+date: "January 31, 2016"
+output: html_document
+---
+
+#MTCARS APP
+
+
+Mtcars is an app developed to pass and apply all the concepts and practice about the Course developing data product.
+Before to begin a fast explanation about the functionality from this app we're going to see a summary about our dataset on work:
+
+```{r}
+summary(mtcars)
+```
+
+
+The data was extracted from the 1974 Motor Trend US magazine, and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles (1973–74 models).
+
+Do cars with manual transmission behave more favorably than automatic transmission cars with respect to fuel efficiency? It is a common belief that changing gears manually results in better fuel management. In this report we will use a dataset from the 1974 Motor Trend US magazine to answer the following questions:
+
+To allow us to know more these dataset we have built an app where you can select the distinct fields and select a range from mpg and you can see how many rows were shown and the second tab shows a boxplot split by "am" and just taken the mpg selected to draw the plot.
